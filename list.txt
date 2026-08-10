@@ -1,0 +1,36 @@
+! Title: uEreaser 
+! Description: My optimized Firefox' uBO cosmatics rules. 
+! Version: 0.1
+
+! === FaselHD ===
+faselhdx.*##.accBtn, .promoLink, .breakNews, #pr, #footer, .singleStar, .singleBtns, .postElse, .downloadLinks, .Teamwork.AsideContext, .ralatedMovies, .social-block, .alert-danger, .blockMovieMeta
+faselhdx.*##.headerItems > .social
+faselhdx.*##.swiper-slide-active .slideMeta
+faselhdx.*##.seasonDiv > .seasonMeta
+
+! === Rules for 5TV ===
+5tv.*##ul.menu > li:is(:nth-child(1), :nth-child(2))
+5tv.*##button.ftvx-btn:is(:nth-of-type(3), :nth-of-type(2))
+5tv.*##button.ftvm-btn:is(:nth-of-type(4), :nth-of-type(3))
+5tv.*##.dv.rw, .tac.ft, .owl-stage-outer, .owl-nav, .widget.comments-area, .ftvx-recommend-btn, .card-badges
+5tv.*##.wdgt-home:is(:nth-child(1), :nth-child(n+5))
+5tv.*##body.single-movies .jst-sb.alg-cr.rw, .ftvx-comments.ftvx-panel
+
+! === JavtiFul ===
+javtiful.com##.front-feature-placement, .front-partner-card, .front-preferences-toggle, .front-watch-reaction-row, .front-watch-actions, .front-watch-comments, .front-footer
+javtiful.com##.front-topnav-link:is(:nth-of-type(3), :nth-of-type(2))
+
+! === WeCima ===
+wecima.*##.LoginButton, productionslistbutton, middle--header.ul:nth-child(3)
+wecima.*##.InnerButton, .owl-stage-outer, .list--Tabsui, .GotoTop
+wecima.*##.NavigationMenu > .menu-item:is(:nth-child(3), :nth-child(4))
+wecima.*##.site-footer, singlecontainerleft, .WecimaonSocialnetwork, .Download--Wecima--Single, .elshaikh-breadcrumbs, singlerelated
+
+!=== Supjav ===
+supjav.com##.header .nav > li:not(:nth-child(3), :nth-child(4), :nth-child(7), :nth-child(9))
+supjav.com##.recommend, .footer, .totop, .downscase
+supjav.com##.contents > #mocat-5, #mocat-4
+supjav.com##.content:nth-of-type(6)
+supjav.com##div.hr:is(:nth-of-type(1), :nth-of-type(3))
+supjav.com###dz_video:style(height: 750px !important;)
+supjav.com##.video-wrap:style(padding: 0px !important;)
