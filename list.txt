@@ -1,5 +1,5 @@
-! Title: uEreaser 
-! Description: My optimized Firefox' uBO cosmatics rules. 
+! Title: 🪄 Magic Wand
+! Description: My optimized uBO cosmetics rules. 
 ! Version: 0.1
 
 ! === FaselHD ===
