@@ -1,6 +1,6 @@
 ! Title: 🪄 Magic Wand
 ! Description: My optimized uBO cosmetics rules. 
-! Version: 0.1
+! Version: 0.2
 
 ! === FaselHD ===
 faselhdx.*##.accBtn, .promoLink, .breakNews, #pr, #footer, .singleStar, .singleBtns, .postElse, .downloadLinks, .Teamwork.AsideContext, .ralatedMovies, .social-block, .alert-danger, .blockMovieMeta
@@ -14,7 +14,9 @@ faselhdx.*##.seasonDiv > .seasonMeta
 5tv.*##button.ftvm-btn:is(:nth-of-type(4), :nth-of-type(3))
 5tv.*##.dv.rw, .tac.ft, .owl-stage-outer, .owl-nav, .widget.comments-area, .ftvx-recommend-btn, .card-badges
 5tv.*##.wdgt-home:is(:nth-child(1), :nth-child(n+5))
-5tv.*##body.single-movies .jst-sb.alg-cr.rw, .ftvx-comments.ftvx-panel
+5tv.*##body.single-movies .jst-sb.alg-cr.rw, .ftvx-comments.ftvx-panel, .ftve-recommend-btn
+5tv.*##section.episodes.section:nth-of-type(2)
+
 
 ! === JavtiFul ===
 javtiful.com##.front-feature-placement, .front-partner-card, .front-preferences-toggle, .front-watch-reaction-row, .front-watch-actions, .front-watch-comments, .front-footer
@@ -34,3 +36,8 @@ supjav.com##.content:nth-of-type(6)
 supjav.com##div.hr:is(:nth-of-type(1), :nth-of-type(3))
 supjav.com###dz_video:style(height: 750px !important;)
 supjav.com##.video-wrap:style(padding: 0px !important;)
+
+! === 123AV ===
+123av.com##.nav__item:is(:nth-of-type(2), :nth-of-type(3), :nth-of-type(4),:nth-of-type(7))
+123av.com##.rec__section:is(:nth-of-type(1), :nth-of-type(2), :nth-of-type(3), :nth-of-type(4))
+123av.com##.signin, .footer, .watch__meta, .watch__desc, .watch-side, .ahero__actions
