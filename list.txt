@@ -1,22 +1,12 @@
 ! Title: 🪄 Magic Wand
 ! Description: My optimized uBO cosmetics rules. 
-! Version: 0.2
+! Version: 0.3
 
 ! === FaselHD ===
 faselhdx.*##.accBtn, .promoLink, .breakNews, #pr, #footer, .singleStar, .singleBtns, .postElse, .downloadLinks, .Teamwork.AsideContext, .ralatedMovies, .social-block, .alert-danger, .blockMovieMeta
 faselhdx.*##.headerItems > .social
 faselhdx.*##.swiper-slide-active .slideMeta
 faselhdx.*##.seasonDiv > .seasonMeta
-
-! === Rules for 5TV ===
-5tv.*##ul.menu > li:is(:nth-child(1), :nth-child(2))
-5tv.*##button.ftvx-btn:is(:nth-of-type(3), :nth-of-type(2))
-5tv.*##button.ftvm-btn:is(:nth-of-type(4), :nth-of-type(3))
-5tv.*##.dv.rw, .tac.ft, .owl-stage-outer, .owl-nav, .widget.comments-area, .ftvx-recommend-btn, .card-badges
-5tv.*##.wdgt-home:is(:nth-child(1), :nth-child(n+5))
-5tv.*##body.single-movies .jst-sb.alg-cr.rw, .ftvx-comments.ftvx-panel, .ftve-recommend-btn
-5tv.*##section.episodes.section:nth-of-type(2)
-
 
 ! === JavtiFul ===
 javtiful.com##.front-feature-placement, .front-partner-card, .front-preferences-toggle, .front-watch-reaction-row, .front-watch-actions, .front-watch-comments, .front-footer
