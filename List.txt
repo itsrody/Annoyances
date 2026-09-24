@@ -1,4 +1,4 @@
-! Title: Rody' Annoyances
+! Title: Rody's Annoyances
 ! Description: My optimized uBO cosmetics rules. 
 ! Version: 0.4
 
