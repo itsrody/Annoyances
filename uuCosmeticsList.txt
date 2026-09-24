@@ -1,6 +1,6 @@
-! Title: 🪄 Magic Wand
+! Title: 🪄 uCosmetics List
 ! Description: My optimized uBO cosmetics rules. 
-! Version: 0.3
+! Version: 0.4
 
 ! === FaselHD ===
 faselhdx.*##.accBtn, .promoLink, .breakNews, #pr, #footer, .singleStar, .singleBtns, .postElse, .downloadLinks, .Teamwork.AsideContext, .ralatedMovies, .social-block, .alert-danger, .blockMovieMeta
