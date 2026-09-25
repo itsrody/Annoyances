@@ -1,12 +1,16 @@
 ! Title: Rody's Annoyances
 ! Description: My optimized uBO cosmetics rules. 
-! Version: 0.4
+! Version: 0.4.1
 
 ! === FaselHD ===
 faselhdx.*##.accBtn, .promoLink, .breakNews, #pr, #footer, .singleStar, .singleBtns, .postElse, .downloadLinks, .Teamwork.AsideContext, .ralatedMovies, .social-block, .alert-danger, .blockMovieMeta
 faselhdx.*##.headerItems > .social
 faselhdx.*##.swiper-slide-active .slideMeta
 faselhdx.*##.seasonDiv > .seasonMeta
+
+! === 5TV ===
+5tv.*##.ftv-desktop-vip-menu-item, .ftv-recommendations-menu-item, .ftv-recommend-button, .site-footer, .ftv-badge
+5tv.*##.ftv-dashboard-card:is(:nth-of-type(2), :nth-of-type(4))
 
 ! === JavtiFul ===
 javtiful.com##.front-feature-placement, .front-partner-card, .front-preferences-toggle, .front-watch-reaction-row, .front-watch-actions, .front-watch-comments, .front-footer
